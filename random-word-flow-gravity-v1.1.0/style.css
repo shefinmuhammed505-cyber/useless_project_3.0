@@ -1,0 +1,3 @@
+/* The page stays visually intact. Only content elements receive a small horizontal transform. */
+html, body { overflow-x: hidden !important; }
+[data-gravity-flow="true"] { will-change: transform !important; }
